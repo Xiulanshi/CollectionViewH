@@ -10,6 +10,6 @@
 
 @interface DetailViewController : UIViewController
 
-@property (nonatomic, assign) CGRect originRect;
+@property (nonatomic, strong) UIImage *image;
 
 @end
